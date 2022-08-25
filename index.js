@@ -71,5 +71,3 @@ class Usuario{
 
 const primerUsuario = new Usuario('Pedro','Gonzalez',[{nombre: 'Libro1', autor: 'Alguien'},{nombre:'libro2', autor:'Otro alguien'}],['perro','gato','loro'])
 console.log(primerUsuario)
-
-const libros = libros.map(libros => libros.nombre)
